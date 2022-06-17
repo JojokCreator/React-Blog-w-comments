@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,700&display=swap');
+
+:root {
+  --background: #EDFFD9;
+  --dark: #3A3042;
+  --darkyellow: #DB9D47;
+}
+body {
+  font-family: 'Lato', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', sans-serif;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+}
+h2 {
+  font-size: 2em;
+  margin-left: 20px;
+  font-weight: 300;
+}
+h3 {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 300;
+}
+p, label{
+  font-size: 1.25em;
+  margin: 20px;
+  font-weight: 500;
+}
+article, form, li {
+  margin: auto;
+  border: 1px solid lightgrey;
+  background-color: var(--background);
+}
+/* BlogPost */
+.blog {
+  padding: 20px;
+  width: 90%;
+}
+.date {
+  margin-left: 0px;
+}
+#line {
+width: 100px;  
+background-color: var(--dark);
+height: 3px;  
+border-color: var(--dark);
+margin-left:0;
+border-radius: 20px;
+padding: 2px; 
+}
+#p-image{
+  margin-top: 0;
+  font-style: italic;
+  font-size: 1em
+}
+#main-text{
+  margin-top: 0;
+  padding: 30px;
+  font-size: 1.5em;
+  font-weight: 500;
+  white-space: break-spaces;
+  text-align: center;
+}
+#cover-img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: top;
+  margin-left: 0 auto;
+  margin-top: 10px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Comment */
+hr {
+  margin: 20px;
+}
+
+.comment {
+  width: 80%;
+  margin-top: 20px;
+  padding: 20px;
+}
+ul
+{
+    list-style-type: none;
+}
+#initial {
+  border-radius: 50%;
+  background: var(--dark);
+  border: 3px solid var(--dark);
+  width: 100px;
+
+}
+#initial-text {
+  color: white;
+  font-weight: 900;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  font-size: 2em;
+}
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+#author {
+  padding: 10px;
+}
+#content {
+  padding: 20px;
+}
+button {
+  margin: 20px;
+  font-size: 1.5em;
+}
