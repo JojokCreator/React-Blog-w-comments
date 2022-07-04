@@ -1,5 +1,5 @@
 export const blog = {
-  title: "My First Coding Post",
+  title: "My Second Coding Post",
   author: "Mr Roy Daniel",
   datePosted: "20/06/2021",
   content: `
