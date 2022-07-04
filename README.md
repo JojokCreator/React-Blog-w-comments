@@ -1,6 +1,8 @@
 ## What is it
 
-Blog app with components that display posts and comments and allow users to add new comments. Made with React. 
+Blog app with components that display posts and comments and allow users to add new comments. Made with React.
+
+View it [Here](https://tourmaline-panda-264b69.netlify.app/)
 
 The page is basically styled with css and is fully responsive. It was designed with mobile-first design.
 
