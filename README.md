@@ -2,7 +2,7 @@
 
 Blog app with components that display posts and comments and allow users to add new comments. Made with React.
 
-View it [Here](https://tourmaline-panda-264b69.netlify.app/)
+View it [Here](https://react-blog-comments.netlify.app/))
 
 The page is basically styled with css and is fully responsive. It was designed with mobile-first design.
 
@@ -85,8 +85,6 @@ Comments are an array of objects. Each object in the array should should have th
   - An input for the comment itself (with a "Comment" label)
   - A button containing "Submit"
 
-
-## Result
 
 
 
